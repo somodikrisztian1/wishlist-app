@@ -10,6 +10,14 @@ export default defineConfig([
   // Turn off rules that conflict with Prettier.
   eslintConfigPrettier,
 
+  // Custom rules
+  {
+    rules: {
+      // Allow setState in useEffect for hydration patterns with localStorage
+      "react-hooks/set-state-in-effect": "off",
+    },
+  },
+
   // Override default ignores of eslint-config-next.
   globalIgnores([".next/**", "out/**", "build/**", "next-env.d.ts"]),
 ]);
