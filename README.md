@@ -7,7 +7,7 @@ A modern wishlist application built with Next.js 16, TypeScript, Tailwind CSS, a
 - 📱 **Responsive Design** - Mobile-first design that works on all devices (1 column mobile, 2 tablet, 3-4 desktop)
 - ❤️ **Wishlist Management** - Add and remove products with interactive heart buttons
 - 💾 **LocalStorage Persistence** - Your wishlist is saved locally and persists across sessions
-- 🎨 **Modern UI** - Clean interface with Tailwind CSS and Geist font
+- 🎨 **Modern UI** - Clean interface with Tailwind CSS and Inter font
 - 🔄 **Real-time Updates** - Wishlist counter updates automatically in the sticky header
 - ⚡ **Fast & Optimized** - Built with Next.js 16 App Router and Turbopack
 
@@ -18,7 +18,7 @@ A modern wishlist application built with Next.js 16, TypeScript, Tailwind CSS, a
 - **Styling**: Tailwind CSS v4
 - **State Management**: Zustand with persist middleware
 - **Data Source**: [Fake Store API](https://fakestoreapi.com)
-- **Font**: Geist Sans & Geist Mono
+- **Font**: Inter (Google Fonts)
 
 ## Getting Started
 
@@ -69,18 +69,21 @@ wishlist-app/
 ## Pages
 
 ### 1. Products List (`/`)
+
 - Fetches products from Fake Store API
 - Displays products in responsive grid
 - Heart icon to add/remove from wishlist
 - Loading and error states
 
 ### 2. Wishlist (`/wishlist`)
+
 - Shows all saved wishlist items
 - Remove button for each item
 - Empty state with link back to products
 - Item count in title
 
 ### 3. Product Detail (`/product/[id]`)
+
 - Full product information with image
 - Price, category, description, and rating
 - Add/Remove from wishlist button
@@ -120,4 +123,3 @@ To learn more about the technologies used:
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
