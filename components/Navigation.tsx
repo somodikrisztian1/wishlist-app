@@ -21,7 +21,7 @@ export default function Navigation() {
               Wishlist App
             </Link>
           </div>
-          <div className="flex space-x-8">
+          <div className="flex space-x-1 md:space-x-5 lg:space-x-8">
             <Link
               href="/"
               className="rounded-md px-3 py-2 text-sm font-medium text-zinc-700 transition-colors hover:text-zinc-900"
